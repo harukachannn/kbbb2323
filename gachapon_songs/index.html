@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GACHAPON SONGS</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="slick-theme.css">
+    <script src="js/slick.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="js/jquery.bgswitcher.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+
+<body>
+    <header class="bg-swicher">
+        <h1>GACHAPON SONGS</h1>
+    </header>
+    <section id="about">
+        <div class="fadein">
+            <p class="heading about-title">ABOUT</p>
+            <p>〜あなたがなりたい気分に合わせて音楽を提案するサイト〜<br> 下の4つの中から今なりたい気分を選んでください。
+                <br> ランダムで曲が提案されるので、知らない曲に出会えるかも！
+            </p>
+        </div>
+    </section>
+    <section id="bg-fixed"></section>
+
+    <section id="limited">
+        <h2 class="heading">Choose your feelings!</h2>
+        <div class="slider">
+            <div>
+                <img src="images/calmkobito.jpg" alt="" class="slide-img">
+                <div class="slide-box">
+                    <h3 class="slide-title">心を静めたい</h3>
+                    <a onclick="transision(0)" class="slider-0">click!</a>
+                </div>
+            </div>
+            <div>
+                <img src="images/wakuwaku kobito.jpg" alt="" class="slide-img">
+                <div class="slide-box">
+                    <h3 class="slide-title">ワクワクしたい</h3>
+                    <a onclick="transision(1)" class="slider-1">click!</a>
+                    </h3>
+                </div>
+            </div>
+            <div>
+                <img src="images/sadkobito.jpg" alt="" class="slide-img">
+                <div class="slide-box">
+                    <h3 class="slide-title">慰められたい</h3>
+                    <a onclick="transision(2)" class="slider-2">click!</a>
+                    </h3>
+                </div>
+            </div>
+            <div>
+                <img src="images/happykobito.jpg" alt="" class="slide-img">
+                <div class="slide-box">
+                    <h3 class="slide-title">元気を出したい</h3>
+                    <a onclick="transision(3)" class="slider-3">click!</a>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+
+</html>
